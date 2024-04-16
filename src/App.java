@@ -1,3 +1,5 @@
+import java.util.concurrent.ArrayBlockingQueue;
+
 public class App {
 
     public static void printTriangle(Object[] arr) {
