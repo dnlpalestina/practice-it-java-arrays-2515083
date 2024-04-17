@@ -1,7 +1,7 @@
 public class App {
-  
+
   public static void main(String[] args) {
-    
+
     CustomArrayList<Integer> customArrayList = new CustomArrayList<>();
     System.out.println(customArrayList.size());
 
@@ -21,7 +21,7 @@ public class App {
 
     CustomArrayList<String> customArrayList2 = new CustomArrayList<>();
     System.out.println(customArrayList2.size());
-    
+
     customArrayList2.add("Hi");
     System.out.println(customArrayList2.get(0));
     System.out.println(customArrayList2.size());
